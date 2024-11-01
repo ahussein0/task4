@@ -1,11 +1,18 @@
 /* General styling */
 :root {
-    --primary-color: #000000;
+    --primary-color: #191919;
     --white: #FFFFFF;
-    --sidebar-primary: #222222;
-    --sidebar-primary-hover: #222222;
-    --sidebar-background: #222222;
-    --background: #222222;
-    --text-link: #222222;
-    --headline: #222222;
+    --sidebar-primary: #353E47;
+    --sidebar-primary-hover: #353E47;
+    --sidebar-background: #070E13;
+    --background: #F1F3FF;
+    --text-link: #FFFFFF;
+    --headline: #CBD1D8;
+    --expand-button: #353E47;
+    --logout: #f56b6b;
+    --button-color: #097bf4;
+    --button-hover-color: #045fc1;
+    --highlight-color: lightblue;
+    --selected-skill-bg: lightgreen;
   }
+  
