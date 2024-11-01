@@ -9,3 +9,12 @@ exports.createEvent = async (req, res) => {
     res.status(400).json({ status: 'error', message: error.message });
   }
 };
+
+exports.getEvents = async (req, res) => {
+  try {
+    const events = await Event.find();
+    res.status(200).json(events);
+  } catch (error) {
+    res.status(400).json({ status: 'error', message: error.message });
+  }
+};
