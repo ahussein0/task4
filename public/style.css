@@ -155,7 +155,7 @@
   /* Highlight selected skills */
   .highlighted {
     background-color: var(--highlight-color);
-    color: yellow;
+    color: black;
   }
   
   /* Skills dropdown on the left and selected skills box on the right using Flexbox */
@@ -199,6 +199,11 @@
       align-items: center;
     }
   
+    #skills, #selectedSkillsContainer {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
     #skills, #selectedSkillsContainer {
       width: 100%;
       margin-bottom: 20px;
