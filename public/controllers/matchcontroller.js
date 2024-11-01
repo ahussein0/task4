@@ -7,3 +7,7 @@ exports.matchVolunteer = async (req, res) => {
     const user = await User.findById(userId);
     const event = await Event.findById(eventId);
 
+    if (!user || !event) {
+      return res.status(404).json({ status: 'error', message: 'User or Event not found' });
+    }
+
