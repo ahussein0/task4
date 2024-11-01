@@ -21,7 +21,7 @@
     margin: 0;
     padding: 0;
     background: var(--background);
-    display: flex
-    height: 100vh
-    overflow: auto
+    display: flex;
+    height: 100vh;
+    overflow: auto;
   }
