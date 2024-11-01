@@ -1,1 +1,1 @@
-const Event = require('models/event');
+const Event = require('../models/event');
