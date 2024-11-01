@@ -1,0 +1,11 @@
+/* General styling */
+:root {
+    --primary-color: #000000;
+    --white: #FFFFFF;
+    --sidebar-primary: #222222;
+    --sidebar-primary-hover: #222222;
+    --sidebar-background: #222222;
+    --background: #222222;
+    --text-link: #222222;
+    --headline: #222222;
+  }
